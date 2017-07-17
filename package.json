@@ -10,9 +10,9 @@
   },
   "repository": "",
   "scripts": {
-    "build": "ember build",
-    "start": "ember server",
-    "test": "ember test"
+    "build": "ember electron:build",
+    "start": "ember electron",
+    "test": "ember electron:test"
   },
   "devDependencies": {
     "babel-plugin-transform-async-to-generator": "^6.24.1",
